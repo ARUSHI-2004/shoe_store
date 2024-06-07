@@ -215,7 +215,7 @@ export default function Component() {
   )
 }
 
-function ArrowRightIcon(props) {
+function ArrowRightIcon({...props}) {
   return (
     <svg
       {...props}
