@@ -21,7 +21,7 @@ import Link from "next/link"
 import { Button } from "@/components/ui/button"
 import { CardContent, Card } from "@/components/ui/card"
 
-export function shoe store() {
+export function shoe_store() {
   return (
     <div className="flex flex-col min-h-[100dvh]">
       <header className="bg-gray-900 text-white py-4 px-6 flex items-center justify-between">
@@ -255,7 +255,7 @@ export function shoe store() {
   )
 }
 
-function ArrowRightIcon(props) {
+function ArrowRightIcon({...props}) {
   return (
     <svg
       {...props}
